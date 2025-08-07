@@ -52,6 +52,39 @@ main {
 h1, h2 {
   margin-bottom: 20px;
 }
+/* Estilo para listas dentro del main */
+main ul {
+  list-style-position: inside;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  padding-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.leer-mas {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1A1A1A;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.leer-mas:hover {
+  background-color: #3A3A3A;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
 
 /* Botones */
 .boton-animado, .boton-js {
