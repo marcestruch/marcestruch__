@@ -21,3 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+// Mostrar / ocultar el menú en móvil
+document.getElementById('hamburguesa').addEventListener('click', function () {
+  document.getElementById('menu-navegacion').classList.toggle('activo');
+});
